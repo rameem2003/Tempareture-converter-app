@@ -207,7 +207,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(390, 24);
             this.label6.TabIndex = 9;
-            this.label6.Text = "Designed by mahmood Hassan Rameem";
+            this.label6.Text = "Designed by Mahmood Hassan Rameem";
             // 
             // Form1
             // 
