@@ -37,11 +37,12 @@
             this.result_fahrenheit = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.fahrenheit_box = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.result_celsius = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.fahrenheit_box = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -148,33 +149,15 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Fahrenheit to Celsius";
             // 
-            // label4
+            // result_celsius
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(8, 37);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(258, 24);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Enter the Fahrenheit value";
-            // 
-            // fahrenheit_box
-            // 
-            this.fahrenheit_box.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.fahrenheit_box.Location = new System.Drawing.Point(284, 35);
-            this.fahrenheit_box.Name = "fahrenheit_box";
-            this.fahrenheit_box.Size = new System.Drawing.Size(175, 29);
-            this.fahrenheit_box.TabIndex = 1;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(222, 102);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(131, 24);
-            this.label5.TabIndex = 2;
-            this.label5.Text = "The result is:";
+            this.result_celsius.AutoSize = true;
+            this.result_celsius.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.result_celsius.Location = new System.Drawing.Point(350, 103);
+            this.result_celsius.Name = "result_celsius";
+            this.result_celsius.Size = new System.Drawing.Size(41, 24);
+            this.result_celsius.TabIndex = 4;
+            this.result_celsius.Text = "0 C";
             // 
             // button1
             // 
@@ -188,21 +171,50 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
-            // result_celsius
+            // label5
             // 
-            this.result_celsius.AutoSize = true;
-            this.result_celsius.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.result_celsius.Location = new System.Drawing.Point(350, 103);
-            this.result_celsius.Name = "result_celsius";
-            this.result_celsius.Size = new System.Drawing.Size(41, 24);
-            this.result_celsius.TabIndex = 4;
-            this.result_celsius.Text = "0 C";
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(222, 102);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(131, 24);
+            this.label5.TabIndex = 2;
+            this.label5.Text = "The result is:";
+            // 
+            // fahrenheit_box
+            // 
+            this.fahrenheit_box.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fahrenheit_box.Location = new System.Drawing.Point(284, 35);
+            this.fahrenheit_box.Name = "fahrenheit_box";
+            this.fahrenheit_box.Size = new System.Drawing.Size(175, 29);
+            this.fahrenheit_box.TabIndex = 1;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(8, 37);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(258, 24);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "Enter the Fahrenheit value";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(304, 366);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(390, 24);
+            this.label6.TabIndex = 9;
+            this.label6.Text = "Designed by mahmood Hassan Rameem";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(984, 357);
+            this.ClientSize = new System.Drawing.Size(984, 417);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
@@ -234,6 +246,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label result_celsius;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label6;
     }
 }
 
