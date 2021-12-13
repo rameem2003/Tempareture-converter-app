@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tempareture converter app", "Tempareture converter app\Tempareture converter app.csproj", "{493C3C30-380E-4DE2-A2BA-EEC37E7166EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{493C3C30-380E-4DE2-A2BA-EEC37E7166EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{493C3C30-380E-4DE2-A2BA-EEC37E7166EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{493C3C30-380E-4DE2-A2BA-EEC37E7166EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{493C3C30-380E-4DE2-A2BA-EEC37E7166EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0A67683-A0EB-445B-8FA3-E45B73DD00E4}
+	EndGlobalSection
+EndGlobal
